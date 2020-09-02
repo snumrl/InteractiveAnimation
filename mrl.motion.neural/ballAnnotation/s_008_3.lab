@@ -1,0 +1,48 @@
+{
+	defaultType:pickup
+	file:s_008_3_3.bvh
+	person:3
+	oppositePerson:0
+	startFrame:119
+	endFrame:146
+	include:
+	isAlone:
+	type:b_right
+	subtype:
+	mood:
+	power:
+	beforeActiveState:
+	afterActiveState:
+	beforePassiveState:
+	afterPassiveState:
+	mutipleInteraction:
+	interactionFrame:-1
+	interactionActivePart:
+	interactionPassivePart:
+	interactionType:
+	weight:1.0
+},
+{
+	defaultType:pickup
+	file:s_008_3_3.bvh
+	person:3
+	oppositePerson:0
+	startFrame:119
+	endFrame:143
+	include:
+	isAlone:
+	type:b_left
+	subtype:
+	mood:
+	power:
+	beforeActiveState:
+	afterActiveState:
+	beforePassiveState:
+	afterPassiveState:
+	mutipleInteraction:
+	interactionFrame:-1
+	interactionActivePart:
+	interactionPassivePart:
+	interactionType:
+	weight:1.0
+},

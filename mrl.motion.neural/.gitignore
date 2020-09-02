@@ -1,0 +1,15 @@
+/bin/
+/target/
+/backup/
+/basketData/
+/walk/
+/neuralData/
+/walkMotion/
+/dribbleAnnotation/
+/walkData/
+/output/
+/dribbleAnnotation_long/
+/dribbleAnnotation_tactics/
+/locomotion/
+/mDatabaseTypeAnns/
+/salsa/

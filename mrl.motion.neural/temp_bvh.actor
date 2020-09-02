@@ -1,0 +1,163 @@
+root_height	89.5185
+ankle_height	88.9835
+pelvis
+begin
+	coordinate	( 0 , 89.5185 , 0 ) ( 1 , 0 , 0 , 0 )
+end
+
+spine_1
+begin
+	parent	pelvis
+	coordinate	( 12.0259 , 89.3556 , 1.69034e-005 ) ( 1 , 0 , 0 , 0 )
+end
+
+spine_2
+begin
+	parent	spine_1
+	coordinate	( 27.3428 , 89.3435 , 1.69034e-005 ) ( 1 , 0 , 0 , 0 )
+end
+
+chest
+begin
+	parent	spine_2
+	coordinate	( 42.6604 , 89.3313 , 1.69034e-005 ) ( 1 , 0 , 0 , 0 )
+end
+
+neck
+begin
+	parent	chest
+	coordinate	( 62.5746 , 90.8946 , 1.69034e-005 ) ( 1 , 0 , 0 , 0 )
+end
+
+head
+begin
+	parent	neck
+	coordinate	( 69.5011 , 90.8946 , 1.69034e-005 ) ( 1 , 0 , 0 , 0 )
+end
+
+head_dummy
+begin
+	parent	head
+	coordinate	( 90.2677 , 90.8946 , 1.69034e-005 ) ( 1 , 0 , 0 , 0 )
+end
+
+left_shoulder
+begin
+	parent	neck
+	coordinate	( 56.3681 , 91.6035 , 7.28221 ) ( 1 , 0 , 0 , 0 )
+end
+
+upper_left_arm
+begin
+	parent	left_shoulder
+	coordinate	( 70.4761 , 91.6035 , 7.28219 ) ( 1 , 0 , 0 , 0 )
+end
+
+lower_left_arm
+begin
+	parent	upper_left_arm
+	coordinate	( 99.0563 , 91.6035 , 7.28219 ) ( 1 , 0 , 0 , 0 )
+end
+
+left_palm
+begin
+	parent	lower_left_arm
+	coordinate	( 126.148 , 91.6035 , 7.28219 ) ( 1 , 0 , 0 , 0 )
+end
+
+left_finger_dummy_3
+begin
+	parent	left_palm
+	coordinate	( 135.708 , 91.417 , 7.42754 ) ( 1 , 0 , 0 , 0 )
+end
+
+right_shoulder
+begin
+	parent	neck
+	coordinate	( 56.3681 , 91.6035 , -7.28216 ) ( 1 , 0 , 0 , 0 )
+end
+
+upper_right_arm
+begin
+	parent	right_shoulder
+	coordinate	( 70.4761 , 91.6035 , -7.28215 ) ( 1 , 0 , 0 , 0 )
+end
+
+lower_right_arm
+begin
+	parent	upper_right_arm
+	coordinate	( 99.0563 , 91.6035 , -7.28215 ) ( 1 , 0 , 0 , 0 )
+end
+
+right_palm
+begin
+	parent	lower_right_arm
+	coordinate	( 126.148 , 91.6035 , -7.28215 ) ( 1 , 0 , 0 , 0 )
+end
+
+right_finger_dummy_3
+begin
+	parent	right_palm
+	coordinate	( 135.708 , 91.4171 , -7.4275 ) ( 1 , 0 , 0 , 0 )
+end
+
+upper_left_leg
+begin
+	parent	pelvis
+	coordinate	( 0.005 , 88.9835 , 8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+lower_left_leg
+begin
+	parent	upper_left_leg
+	coordinate	( 39.9085 , 88.9835 , 8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+left_foot
+begin
+	parent	lower_left_leg
+	coordinate	( 79.5774 , 88.9835 , 8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+left_toe
+begin
+	parent	left_foot
+	coordinate	( 89.7398 , 102.613 , 8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+left_toe_dummy
+begin
+	parent	left_toe
+	coordinate	( 98.1213 , 102.613 , 8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+upper_right_leg
+begin
+	parent	pelvis
+	coordinate	( 0.005 , 88.9835 , -8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+lower_right_leg
+begin
+	parent	upper_right_leg
+	coordinate	( 39.9085 , 88.9835 , -8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+right_foot
+begin
+	parent	lower_right_leg
+	coordinate	( 79.5774 , 88.9835 , -8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+right_toe
+begin
+	parent	right_foot
+	coordinate	( 89.7398 , 102.613 , -8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
+right_toe_dummy
+begin
+	parent	right_toe
+	coordinate	( 98.1213 , 102.613 , -8.837 ) ( 1 , 0 , 0 , 0 )
+end
+
