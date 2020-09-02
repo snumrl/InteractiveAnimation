@@ -1,6 +1,8 @@
 # Interactive Character Animiation by Learning Multi-Objective Control
 Project : http://mrl.snu.ac.kr/research/ProjectMultiObjectiveControl/index.htm
+
 Paper : http://mrl.snu.ac.kr/research/ProjectMultiObjectiveControl/learning-multi-objective-author.pdf
+
 Video : https://youtu.be/VYgMD9QJt04
 
 ## Environments Setup
